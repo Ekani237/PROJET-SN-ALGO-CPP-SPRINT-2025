@@ -1,0 +1,93 @@
+ THE ICT UNIVERSITY                                                                                         UNIVERSITE DES TIC 2025
+
+REPUBLIQUE DU CAMEROUN                                                                       REPUBLIC OF CAMEROON
+Paix-Travail-Patrie                                                                                               Peace-Work-Fatherland
+************                                                     ************
+      DEPARTEMENT DES TECHNOLOGIES DE L’INFORMATION ET DE LA COMMUCATION
+MEMBRE DU GROUPE 16
+•	Noah ekani maurice benoit
+•	Siakam luis dolnick
+•	Piankeu dzemdio djibril
+
+
+ 
+
+Cahier des Charges : Gestionnaire de Favoris
+  
+1. Introduction
+Ce document définit les exigences pour le développement d'un gestionnaire de favoris destiné à améliorer l'expérience des utilisateurs lors de la sauvegarde et de l'accès à leurs sites web préférés.
+2. Contexte
+Avec la prolifération des contenus en ligne, les utilisateurs ont besoin d'un outil efficace pour organiser leurs favoris. Ce gestionnaire doit offrir une interface intuitive, des fonctionnalités avancées et une sécurité renforcée pour protéger les données des utilisateurs.
+3. Exigences Spécifiques
+3.1. Exigences Fonctionnelles (ERF)
+•	Créer des taches :
+o	Les utilisateurs pourront créer des taches avec un titre, une description et une date d’échéance.
+o	Les taches pourront être organisées en catégories.
+•	Modifier des taches :
+o	Les utilisateurs pourront modifier les taches existantes.
+o	Les modifications seront enregistrées automatiquement.
+•	Supprimer des taches :
+o	Les utilisateurs pourront supprimer des tâches existantes.
+o	Les taches supprimer seront définitivement supprimées.
+
+3.2. Exigences Non Fonctionnelles (ERNF)
+•	Exigences de Performance :
+o	Temps de réponse inférieur à 2 secondes pour l'ajout et la suppression de favoris.
+o	Capacité à gérer jusqu'à 10,000 favoris sans dégradation des performances.
+•	Exigences de Sécurité :
+o	Authentification requise pour accéder aux favoris.
+o	Cryptage des données sensibles (HTTPS).
+o	Gestion des sessions utilisateur avec expiration automatique après 30 minutes d'inactivité.
+•	Exigences de Fiabilité :
+o	Disponibilité de 99,9 %.
+o	Sauvegarde quotidienne des données sur un serveur externe.
+o	Récupération des données en cas de panne.
+•	Exigences d'Ergonomie et d'Interface Utilisateur :
+o	Interface intuitive, accessible aux utilisateurs avec des handicaps (WCAG 2.1).
+o	Conception responsive pour une utilisation sur mobiles et tablettes.
+•	Exigences de Maintenabilité :
+o	Code bien structuré avec des commentaires clairs.
+o	Mise à jour simple des composants via un gestionnaire de paquets.
+•	Exigences de Portabilité :
+o	Compatible avec les navigateurs majeurs (Chrome, Firefox, Safari, Edge).
+o	Fonctionne sur Windows, MacOs et Linux.
+•	Exigences de Conformité :
+o	Respect des normes RGPD pour la gestion des données personnelles.
+o	Documentation des procédures de traitement des données.
+3.3. Exigences d'Interface Externe
+•	Interfaces Utilisateur (UI) :
+o	Interface graphique conviviale avec des options de recherche et de filtrage.
+o	Design moderne, avec un tableau de bord pour visualiser les favoris.
+•	Interfaces Logicielles :
+o	API RESTful pour intégration avec d'autres applications (par exemple, synchronisation avec des navigateurs).
+o	Documentation API claire pour les développeurs.
+•	Interfaces de Communication :
+o	Utilisation de JSON pour le format des données échangées.
+o	Protocole HTTPS pour sécuriser les communications.
+3.4. Autres Exigences
+•	Intégration de la fonctionnalité de synchronisation : Permettre la synchronisation des favoris entre plusieurs appareils.
+4. Préparation à la Livraison
+4.1. Plan de Déploiement
+Le déploiement sera effectué par étapes :
+1.	Environnement de test : Tests unitaires et d'intégration.
+2.	Environnement de préproduction : Tests utilisateurs et corrections de bugs.
+3.	Production : Déploiement final après validation.
+4.2. Exigences de Formation
+•	Sessions de formation pour les utilisateurs finaux sur l'utilisation et la gestion du système.
+•	Formation pour les administrateurs sur la maintenance et la gestion des données.
+4.3. Exigences de Documentation
+Fournir :
+•	Manuel utilisateur : Instructions détaillées sur l'utilisation de chaque fonctionnalité.
+•	Guide d'installation : Étapes nécessaires pour déployer le système.
+•	Documentation technique : Détails sur l'architecture, les technologies utilisées et les API.
+4.4. Exigences de Maintenance
+•	Prévoir un plan de maintenance pour les mises à jour régulières et le support technique.
+•	Processus de gestion des incidents et des demandes de support.
+5. Annexes (Optionnel)
+•	Glossaire détaillé : Terminologie utilisée dans le document.
+•	Prototypes ou maquettes d'interface : Visuels des interfaces utilisateur pour validation.
+•	Plan de tests : Stratégie de tests à suivre pour assurer la qualité du produit final.
+________________________________________
+CONCLUSION
+Ce cahier des charges fournit des informations complètes pour guider le développement du gestionnaire de favoris.
+
